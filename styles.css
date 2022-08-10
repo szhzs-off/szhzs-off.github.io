@@ -1,0 +1,94 @@
+/* шрифт с гугл фонтс */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+/* тело страницы */
+body {
+  margin: 0;
+  color: #fff;
+  background: #374d3d;
+  font-family: 'Inter', sans-serif;
+}
+.container {
+  position: relative;
+  top: 50px;
+  margin: auto;
+  width: 95%;
+  padding: 10px;
+}
+
+/* навбар */
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #5ba658;
+  -webkit-box-shadow: -1px 4px 12px 6px rgba(0, 26, 11, 0.2);
+  -moz-box-shadow: -1px 4px 12px 6px rgba(0, 26, 11, 0.2);
+  box-shadow: -1px 4px 12px 6px rgba(0, 26, 11, 0.2);
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+li:not(.logo) a {
+  padding: 15.5px 15px;
+}
+li a:hover:not(.active) {
+  background-color: #7dc87a;
+}
+.active {
+  background-color: #7dc87a;
+}
+
+/* текст */
+h1 {
+  height: 48px;
+  font-size: 48px;
+}
+h2 {
+  height: 36px;
+  font-size: 36px;
+}
+.small-br {
+   display: block;
+   margin: 5px 0;
+}
+.small-h1 {
+  margin-top: 0 !important;
+}
+p {
+  font-size: 24px;
+}
+.low-p {
+  font-size: 12px;
+  color: #8a8;
+}
+
+/* плюшки такие как кнопки */
+.button {
+  padding: 15px 20px;
+  border-radius: 15px;
+  height: 20px;
+  background: #5ba658;
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+}
+.button:hover {
+  background: #7dc87a;
+  cursor: pointer;
+}
+
+.real:link { color: #dfd; }
+.real:visited { color: #dfd; }
+.real:hover { color: #fff; }
+.real:active { color: #aad; }
